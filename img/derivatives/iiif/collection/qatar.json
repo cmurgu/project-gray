@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "/project-gray/img/derivatives/iiif/collection/qatar.json",
+  "@type": "sc:Collection",
+  "label": "qatar",
+  "manifests": [
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj10/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj10"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj5"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj4"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj11/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj11"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj6"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj7"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj3"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj2"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj1"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj9"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj8/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj8"
+    },
+    {
+      "@id": "/project-gray/img/derivatives/iiif/obj12/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "obj12"
+    }
+  ]
+}
