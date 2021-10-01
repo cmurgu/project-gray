@@ -45,19 +45,8 @@
                 <ul class="navbar-nav ml-auto">
                 
                     
-                    <li class='nav-item dropdown'>
-                    <a class='nav-link dropdown-toggle' href='#' id='wax-exhibits-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-                    Exhibits
-                    </a>
-                    <div class='dropdown-menu' aria-labelledby='wax-exhibits-dropdown'>
-                    
-                    <a class='dropdown-item' href='/project-gray/exhibits/parallax/'>Parallax Images</a>
-                    
-                    <a class='dropdown-item' href='/project-gray/exhibits/references/'>Image References</a>
-                    
-                    <a class='dropdown-item' href='/project-gray/exhibits/subset/'>Subset Collection</a>
-                    
-                    </div>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='/project-gray/exhibits/subset/'>Blog</a>
                     </li>
                     
                 
@@ -124,9 +113,33 @@
 
 <hr />
 
-<p>Welcome to Ontario Open Gray (OOG), a fledgling project to facilitate access to Ontario gray literature. Searching for gray literature is a pain at the best of times. This project tries to make that a little easier by providing pre-programmed Google Custom searches for domain collections. Visit the OOG roadmap to get a sense of where we are and where we want to go. If you’re interested in participating, please contact Cal Murgu (Brock University).</p>
+<p>Welcome to Ontario Open Gray (OOG), a fledgling project to facilitate access to Ontario gray literature. Searching for gray literature is a pain at the best of times. This project tries to make that a little easier by providing pre-programmed Google Custom searches for domain collections. Visit the <a href="/about">About</a> page to learn more about this project, and visit the OOG roadmap to get a sense of where we are and where we want to go. If you’re interested in participating, please contact Cal Murgu (Brock University).</p>
 
-<div class="text-center"><a class="action-button btn" href="https://github.com/minicomp/wax-facets/" target="_blank" role="button">get me on Github</a></div>
+<div class="text-center"><a class="action-button btn" href="/collection/" target="_blank" role="button">Find some lit</a></div>
+
+<div class="search-block">
+  <div class="input-group">
+    <input type="text" class="form-control" id="search" name="x" placeholder="Type something... like municipal government" />
+  </div>
+  <div id="results"></div>
+</div>
+
+<script type="text/javascript" src="/project-gray/assets/elasticlunr.min.js"></script>
+
+<script type="text/javascript" src="/project-gray/assets/search-ui.js"></script>
+
+<script type="text/javascript">
+  var fields    = ["artist","location","label","_date","object_type","current_location"];
+  var indexFile = "/project-gray/search/index.json";
+  //var url       = "/project-gray";
+  var url       = "/project-gray/";
+  console.log(url);
+
+  $(document).ready(function() {
+    startSearchUI(fields, indexFile, url);
+  });
+</script>
+
 
 </div>
 
