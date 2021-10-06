@@ -1,24 +1,20 @@
 [
   {
     "pid": "obj1",
-    "artist": "Al-Hajj Hafiz Muhammad Nuri",
+    "location": "Ontario",
     "label": "Ontario Municipal Websites",
-    "_date": "1801",
     "object_type": "Municipal",
-    "current_location": "The Museum of Islamic Art, Qatar",
     "collection": "qatar",
-    "thumbnail": "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+    "thumbnail": "img/derivatives/simple/obj1/thumbnail.jpg",
     "content": " ",
     "permalink": "/qatar/obj1",
     "lunr_id": 0
   },
   {
     "pid": "obj2",
-    "artist": "Unknown",
+    "location": "Alberta",
     "label": "Alebrta Provincial Websites",
-    "_date": "14th century",
     "object_type": "Provincial",
-    "current_location": "The Museum of Islamic Art, Qatar",
     "collection": "qatar",
     "thumbnail": "img/derivatives/simple/obj2/thumbnail.jpg",
     "content": " ",
